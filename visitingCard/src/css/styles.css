@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.visitingCard{
+    width: 500px;
+    height: 200px;
+    background:rgb(245, 244, 244) ;
+    border: 3px solid rgb(167, 167, 167);
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.userImageContainer,.userImage{
+    width: 180px;
+    height: 160px;
+}
+.userImageContainer{
+    margin-right: 20px;
+}
+.userImage{
+    border: 3px solid rgb(167, 167, 167);
+    object-fit: cover;
+}
+.userDetails p {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.userDetails p:first-of-type{
+    margin-top: 18px;
+}
+.userDetails h2 {
+    font-weight: 600;
+}
